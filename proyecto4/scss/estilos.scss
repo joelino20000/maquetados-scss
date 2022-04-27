@@ -1,0 +1,139 @@
+/*libreria de boostrap*/
+@import "../libs/bootstrap/scss/bootstrap";
+
+/*hoja de variables*/
+
+@import "otros/variables";
+
+/*hoja de minimix*/
+
+@import "otros/minimix.scss";
+
+
+/*tamaño xs colores*/
+
+
+@include media-breakpoint-up (xs){
+    #article1, #article2, #article3{
+        @include contenido-largo (2);
+        background-color: $color-objetos-xs;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #aside{
+        @include contenido-largo (4);
+        background-color: $color-objetos-xs;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #header{
+        @include contenido-largo (2);
+        background-color: $color-header-xs;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #footer{
+        @include contenido-largo (2);
+        background-color: $color-footer-xs;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+}
+/*tamaño sm colores*/
+
+@include media-breakpoint-up (sm){
+    #article1, #article2, #article3{
+        @include contenido-largo (1);
+        background-color: $color-objetos-sm;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #aside{
+        @include contenido-largo (2);
+        background-color: $color-objetos-sm;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #header{
+        @include contenido-largo (1);
+        background-color: $color-header-sm;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #footer{
+        @include contenido-largo (1);
+        background-color: $color-footer-sm;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+}
+
+/*tamaño md colores*/
+
+@include media-breakpoint-up (md){
+    #article1, #article2, #article3{
+        @include contenido-largo (1);
+        background-color: $color-objetos-md;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #aside{
+        @include contenido-largo (2);
+        background-color: $color-objetos-md;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #header{
+        @include contenido-largo (1);
+        background-color: $color-header-md;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #footer{
+        @include contenido-largo (1);
+        background-color: $color-footer-md;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+}
+
+/*tamaño xl colores*/
+
+@include media-breakpoint-up (xl){
+    #article1, #article2, #article3{
+        @include contenido-largo (4);
+        background-color: $color-objetos-xl;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #aside{
+        @include contenido-largo (8);
+        background-color: $color-objetos-xl;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #header{
+        @include contenido-largo (4);
+        background-color: $color-header-xl;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+    #footer{
+        @include contenido-largo (2);
+        background-color: $color-footer-xs;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+}

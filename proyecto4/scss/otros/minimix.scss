@@ -1,0 +1,5 @@
+/*se modifica el tamaño de las cajas*/
+
+@mixin contenido-largo($valor) {
+    height: $largo*$valor;
+}

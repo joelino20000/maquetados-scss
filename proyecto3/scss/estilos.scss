@@ -1,0 +1,97 @@
+/*libreria de boostrap*/
+@import "../libs/bootstrap/scss/bootstrap";
+
+/*hoja de variables*/
+
+@import "otros/variables";
+
+/*hoja de minimix*/
+
+@import "otros/minimix.scss";
+
+
+/*tamaño xs colores*/
+@include media-breakpoint-up (xs){
+    #header{
+        @include contenido-largo (3);
+        background-color: $color-header-xs;
+        border-radius: 30px;
+    }
+    #objeto1,#objeto2,#objeto3{
+        @include contenido-largo (3);
+        background-color: $color-objeto-xs;
+        border-radius: 30px;
+    }
+    
+    #footer1, #footer2{
+        @include contenido-largo (3);
+        background-color: $color-foter-xs;
+        border-radius: 30px;
+    }
+    
+}
+/*tamaño sm colores*/
+
+@include media-breakpoint-up (sm){
+    #header{
+        @include contenido-largo (1);
+        background-color: $color-header-sm;
+        border-radius: 30px;
+    }
+    #objeto1,#objeto2,#objeto3{
+        @include contenido-largo (1);
+        background-color: $color-objeto-sm;
+        border-radius: 30px;
+    }
+    
+    #footer1, #footer2{
+        @include contenido-largo (1);
+        background-color: $color-foter-sm;
+        border-radius: 30px;
+    }
+    
+}
+
+/*tamaño lg colores*/
+
+@include media-breakpoint-up (lg){
+    #header{
+        @include contenido-largo (1);
+        background-color: $color-header-lg;
+        border-radius: 30px;
+    }
+    #objeto1,#objeto2,#objeto3{
+        @include contenido-largo (1);
+        background-color: $color-objeto-lg;
+        border-radius: 30px;
+    }
+    
+    #footer1, #footer2{
+        @include contenido-largo (1);
+        background-color: $color-foter-lg;
+        border-radius: 30px;
+    }
+    
+}
+
+/*tamaño xl colores*/
+
+@include media-breakpoint-up (xl){
+    #header{
+        @include contenido-largo (3);
+        background-color: $color-header-xl;
+        border-radius: 30px;
+    }
+    #objeto1,#objeto2,#objeto3{
+        @include contenido-largo (3);
+        background-color: $color-objeto-xl;
+        border-radius: 30px;
+    }
+    
+    #footer1, #footer2{
+        @include contenido-largo (3);
+        background-color: $color-foter-xl;
+        border-radius: 30px;
+    }
+    
+}

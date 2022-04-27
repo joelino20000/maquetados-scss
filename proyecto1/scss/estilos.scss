@@ -1,0 +1,68 @@
+/*libreria de boostrap*/
+@import "../libs/bootstrap/scss/bootstrap";
+
+/*hoja de variables*/
+
+@import "otros/variables.scss";
+
+/*hoja de minimix*/
+
+@import "otros/minimix.scss";
+
+
+/*tamaño xs colores*/
+
+@include media-breakpoint-up (xs) {
+    #obj1{
+        @include contenido-largo(3);
+        background-color: $color-contenido-objeto1-xs;
+    }
+
+    #obj2{
+        @include contenido-largo(3);
+        background-color: $color-contenido-objeto2-xs;
+    }
+
+    #obj3{
+        @include contenido-largo(3);
+        background-color: $color-contenido-objeto3-xs;
+    }
+}
+
+/*tamaño md colores*/
+
+@include media-breakpoint-up (md) {
+    #obj1{
+        @include contenido-largo(2);
+        background-color: $color-contenido-objeto1-md;
+    }
+
+    #obj2{
+        @include contenido-largo(2);
+        background-color: $color-contenido-objeto2-md;
+    }
+
+    #obj3{
+        @include contenido-largo(2);
+        background-color: $color-contenido-objeto3-md;
+    }
+}
+
+/*tamaño lg colores*/
+
+@include media-breakpoint-up (lg) {
+    #obj1{
+        @include contenido-largo(1);
+        background-color: $color-contenido-objeto1-lg;
+    }
+
+    #obj2{
+        @include contenido-largo(1);
+        background-color: $color-contenido-objeto2-lg;
+    }
+
+    #obj3{
+        @include contenido-largo(1);
+        background-color: $color-contenido-objeto3-lg;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAEA,wBAAwB;AAMxB,wBAAwB;AAMxB,wBAAwB;AAOxB,wBAAwB",
+    "sources": [
+        "../scss/otros/variable.scss"
+    ],
+    "names": [],
+    "file": "variable.css"
+}

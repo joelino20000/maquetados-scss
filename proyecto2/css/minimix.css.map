@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,sCAAsC",
+    "sources": [
+        "../scss/otros/minimix.scss"
+    ],
+    "names": [],
+    "file": "minimix.css"
+}

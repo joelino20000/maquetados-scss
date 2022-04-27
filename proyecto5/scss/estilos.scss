@@ -1,0 +1,94 @@
+/*libreria de boostrap*/
+@import "../libs/bootstrap/scss/bootstrap";
+
+/*hoja de variables*/
+
+@import "otros/variables.scss";
+
+/*tamaño xs colores*/
+@include media-breakpoint-up (xs){
+    #header{
+        background-color: $color-header-xs;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #a, #objeto1, #objeto2{
+        background-color: $color-objetos-xs;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #footer{
+        background-color: $color-footer-xs;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+}
+
+/*tamaño md colores*/
+
+@include media-breakpoint-up (md){
+    #header{
+        background-color: $color-header-md;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #a, #objeto1, #objeto2{
+        background-color: $color-objetos-md;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #footer{
+        background-color: $color-footer-md;
+        border: 2px solid;
+        border-radius: 15px;
+        
+    }
+}
+
+/*tamaño lg colores*/
+
+@include media-breakpoint-up (lg){
+    #header{
+        background-color: $color-header-lg;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #a, #objeto1, #objeto2{
+        background-color: $color-objetos-lg;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #footer{
+        background-color: $color-footer-lg;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+}
+
+/*tamaño xl colores*/
+
+@include media-breakpoint-up (xl){
+    #header{
+        background-color: $color-header-xl;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #a, #objeto1, #objeto2{
+        background-color: $color-objetos-xl;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+
+    #footer{
+        background-color: $color-footer-xl;
+        border: 2px solid;
+        border-radius: 15px;
+    }
+}

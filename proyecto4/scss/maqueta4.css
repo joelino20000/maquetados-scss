@@ -1,0 +1,32 @@
+/*Autor: Joel Bautista
+    Sena cba
+    Realizado:16/03/2022
+    Ficha:2470980-->*/
+    #header{
+        background-color: aqua;
+        border: 1px solid black
+    }
+    #aside{
+        background-color: rgb(255, 196, 0);
+        border: 1px solid black
+    }
+    #article1{
+        background-color: rgb(0, 255, 136);
+        border: 1px solid black
+    }
+    #article2{
+        background-color: rgb(255, 0, 191);
+        border: 1px solid black
+    }
+    #article3{
+            background-color: rgb(48, 12, 133);
+            border: 1px solid black
+    }
+    #aside{
+            background-color: brown;
+            border: 1px solid salmon;
+    }
+    footer{
+        background-color: rgb(5, 170, 5);
+        border: 1px solid rgb(49, 21, 153);
+}

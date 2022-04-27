@@ -1,0 +1,104 @@
+/*libreria de boostrap*/
+@import "../libs/bootstrap/scss/bootstrap";
+
+/*hoja de variables*/
+
+@import "otros/variable.scss";
+
+/*hoja de minimix*/
+
+@import "otros/minimix.scss";
+
+/*tamaño xs colores*/
+
+@include media-breakpoint-up (sm){
+    #objeto1{
+    @include contenido-largo (4);
+        background-color: $color-objeto1-sm;
+    }
+
+    #objeto2{
+    @include contenido-largo (4);
+        background-color: $color-objeto2-sm;
+    }
+    
+    #objeto3{
+        @include contenido-largo (4);
+        background-color: $color-objeto3-sm;
+    }
+    
+    #objeto4{
+        @include contenido-largo (4);
+        background-color: $color-objeto4-sm;
+    }
+}
+
+/*tamaño md colores*/
+
+@include media-breakpoint-up (md){
+    #objeto1{
+    @include contenido-largo (3);
+        background-color: $color-objeto1-md;
+    }
+
+    #objeto2{
+    @include contenido-largo (3);
+        background-color: $color-objeto2-md;
+    }
+    
+    #objeto3{
+        @include contenido-largo (3);
+        background-color: $color-objeto3-md;
+    }
+    
+    #objeto4{
+        @include contenido-largo (3);
+        background-color: $color-objeto4-md;
+    }
+}
+
+/*tamaño lg colores*/
+
+@include media-breakpoint-up (lg){
+    #objeto1{
+    @include contenido-largo (1);
+        background-color: $color-objeto1-lg;
+    }
+
+    #objeto2{
+    @include contenido-largo (1);
+        background-color: $color-objeto2-lg;
+    }
+    
+    #objeto3{
+        @include contenido-largo (1);
+        background-color: $color-objeto3-lg;
+    }
+    
+    #objeto4{
+        @include contenido-largo (1);
+        background-color: $color-objeto4-lg;
+    }
+}
+
+@include media-breakpoint-up (xl){
+    #objeto1{
+    @include contenido-largo (1);
+        background-color: $color-objeto1-xl;
+    }
+
+    #objeto2{
+    @include contenido-largo (1);
+        background-color: $color-objeto2-xl;
+    }
+    
+    #objeto3{
+        @include contenido-largo (1);
+        background-color: $color-objeto3-xl;
+    }
+    
+    #objeto4{
+        @include contenido-largo (1);
+        background-color: $color-objeto4-xl;
+    }
+}

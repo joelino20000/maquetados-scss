@@ -1,0 +1,40 @@
+/*libreria de boostrap*/
+
+@import "../libs/bootstrap/scss/bootstrap";
+
+
+.logo{
+    margin-top: 20px;
+    text-align: center;
+    
+} 
+
+
+.menu1 {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.menu {
+    background-color: #F0E3CA;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+
+.menu li{
+    display: inline-block
+
+}
+.menu li a:hover{
+    background-color: #4B778D;
+    display: block;
+    padding: 20px;
+}
+

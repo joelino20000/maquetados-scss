@@ -1,0 +1,20 @@
+/*Autor: Joel Bautista
+    Sena cba
+    Realizado:16/03/2022
+    Ficha:2470980-->*/
+
+    /*aca se evidencia objeto 1*/
+#objeto1{
+    background-color: aqua;
+    border: 1px solid black
+}
+/*aca se evidencia objeto 2*/
+#objeto2{
+    background-color: rgb(255, 94, 0);
+    border: 1px solid black
+}
+/*aca se evidencia objeto 3*/
+#objeto3{
+    background-color: rgb(0, 255, 0);
+    border: 1px solid black
+}
